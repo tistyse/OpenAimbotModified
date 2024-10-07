@@ -274,7 +274,7 @@ do
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
         Theme = UISettings.Theme,
         Acrylic = UISettings.Acrylic,
-        MinimizeKey = UISettings.MinimizeKey
+        MinimizeKey = "PageDown"
     })
 
     local Tabs = { Aimbot = Window:AddTab({ Title = "Aimbot", Icon = "crosshair" }) }
