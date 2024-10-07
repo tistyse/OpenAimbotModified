@@ -1186,9 +1186,9 @@ do
         UISection:AddKeybind("MinimizeKey", {
             Title = "Minimize Key",
             Description = "Changes the Minimize Key",
-            Default = Fluent.MinimizeKey,
+            Default = "PageDown",
             ChangedCallback = function(Value)
-                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "RMB"
+                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "PageDown"
                 InterfaceManager:ExportSettings()
             end
         })
