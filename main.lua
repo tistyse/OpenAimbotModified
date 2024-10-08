@@ -115,31 +115,31 @@ Configuration.Aimbot = true
 Configuration.OnePressAimingMode = false
 Configuration.AimKey = "PageUp"
 Configuration.AimMode = "Camera"
-Configuration.SilentAimMethods = ImportedConfiguration["SilentAimMethods"] or { "Mouse.Hit / Mouse.Target", "GetMouseLocation" }
-Configuration.SilentAimChance = ImportedConfiguration["SilentAimChance"] or 100
-Configuration.OffAfterKill = ImportedConfiguration["OffAfterKill"] or false
-Configuration.AimPartDropdownValues = ImportedConfiguration["AimPartDropdownValues"] or { "Head", "HumanoidRootPart" }
+Configuration.SilentAimMethods = { "Mouse.Hit / Mouse.Target", "GetMouseLocation" }
+Configuration.SilentAimChance = 100
+Configuration.OffAfterKill = true
+Configuration.AimPartDropdownValues = { "Head", "HumanoidRootPart" }
 Configuration.AimPart ="Head"
-Configuration.RandomAimPart = ImportedConfiguration["RandomAimPart"] or false
+Configuration.RandomAimPart = false
 
-Configuration.UseOffset = ImportedConfiguration["UseOffset"] or false
-Configuration.OffsetType = ImportedConfiguration["OffsetType"] or "Static"
-Configuration.StaticOffsetIncrement = ImportedConfiguration["StaticOffsetIncrement"] or 10
-Configuration.DynamicOffsetIncrement = ImportedConfiguration["DynamicOffsetIncrement"] or 10
-Configuration.AutoOffset = ImportedConfiguration["AutoOffset"] or false
-Configuration.MaxAutoOffset = ImportedConfiguration["MaxAutoOffset"] or 50
+Configuration.UseOffset = false
+Configuration.OffsetType = "Static"
+Configuration.StaticOffsetIncrement = 10
+Configuration.DynamicOffsetIncrement = 10
+Configuration.AutoOffset = false
+Configuration.MaxAutoOffset = 50
 
 Configuration.UseSensitivity = true
 Configuration.Sensitivity = 10
-Configuration.UseNoise = ImportedConfiguration["UseNoise"] or false
-Configuration.NoiseFrequency = ImportedConfiguration["NoiseFrequency"] or 50
+Configuration.UseNoise = false
+Configuration.NoiseFrequency = 50
 
 --? TriggerBot
 
-Configuration.TriggerBot = ImportedConfiguration["TriggerBot"] or false
-Configuration.OnePressTriggeringMode = ImportedConfiguration["OnePressTriggeringMode"] or false
-Configuration.SmartTriggerBot = ImportedConfiguration["SmartTriggerBot"] or false
-Configuration.TriggerKey = ImportedConfiguration["TriggerKey"] or "V"
+Configuration.TriggerBot = false
+Configuration.OnePressTriggeringMode = false
+Configuration.SmartTriggerBot = false
+Configuration.TriggerKey = "V"
 
 --? Checks
 
