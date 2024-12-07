@@ -43,7 +43,7 @@ local UISettings = {
     Theme = "VSC Dark High Contrast",
     Acrylic = false,
     Transparency = true,
-    MinimizeKey = "PageDown",
+    MinimizeKey = "F14",
     ShowNotifications = false,
     ShowWarnings = true,
     RenderingMode = "RenderStepped",
@@ -113,7 +113,7 @@ local Configuration = {}
 
 Configuration.Aimbot = true
 Configuration.OnePressAimingMode = false
-Configuration.AimKey = "PageUp"
+Configuration.AimKey = "F13"
 Configuration.AimMode = "Camera"
 Configuration.SilentAimMethods = { "Mouse.Hit / Mouse.Target", "GetMouseLocation" }
 Configuration.SilentAimChance = 100
@@ -182,7 +182,7 @@ Configuration.FoVFilled = false
 Configuration.FoVColour = Color3.fromRGB(255, 255, 255)
 
 Configuration.SmartESP = false
-Configuration.ESPKey = "End"
+Configuration.ESPKey = "F15"
 Configuration.ESPBox = false
 Configuration.ESPBoxFilled = false
 Configuration.NameESP = true
