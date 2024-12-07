@@ -274,7 +274,7 @@ do
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
         Theme = UISettings.Theme,
         Acrylic = UISettings.Acrylic,
-        MinimizeKey = "PageDown"
+        MinimizeKey = "F14"
     })
 
     local Tabs = { Aimbot = Window:AddTab({ Title = "Aimbot", Icon = "crosshair" }) }
@@ -1186,9 +1186,9 @@ do
         UISection:AddKeybind("MinimizeKey", {
             Title = "Minimize Key",
             Description = "Changes the Minimize Key",
-            Default = "PageDown",
+            Default = "F14",
             ChangedCallback = function(Value)
-                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "PageDown"
+                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "F14"
                 InterfaceManager:ExportSettings()
             end
         })
