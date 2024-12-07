@@ -153,7 +153,7 @@ Configuration.WallCheck = ImportedConfiguration["WallCheck"] or false
 Configuration.WaterCheck = ImportedConfiguration["WaterCheck"] or false
 
 Configuration.FoVCheck = true
-Configuration.FoVRadius = 150
+Configuration.FoVRadius = 90
 Configuration.MagnitudeCheck = ImportedConfiguration["MagnitudeCheck"] or false
 Configuration.TriggerMagnitude = ImportedConfiguration["TriggerMagnitude"] or 500
 Configuration.TransparencyCheck = ImportedConfiguration["TransparencyCheck"] or false
