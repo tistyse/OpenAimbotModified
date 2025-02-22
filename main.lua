@@ -1186,7 +1186,7 @@ do
         UISection:AddKeybind("MinimizeKey", {
             Title = "Minimize Key",
             Description = "Changes the Minimize Key",
-            Default = "F14",
+            Default = "RightBracket",
             ChangedCallback = function(Value)
                 UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "F14"
                 InterfaceManager:ExportSettings()
