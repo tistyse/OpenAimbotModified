@@ -274,7 +274,7 @@ do
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
         Theme = UISettings.Theme,
         Acrylic = UISettings.Acrylic,
-        MinimizeKey = "F14"
+        MinimizeKey = "RightBracket"
     })
 
     local Tabs = { Aimbot = Window:AddTab({ Title = "Aimbot", Icon = "crosshair" }) }
@@ -1188,7 +1188,7 @@ do
             Description = "Changes the Minimize Key",
             Default = "RightBracket",
             ChangedCallback = function(Value)
-                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "F14"
+                UISettings.MinimizeKey = pcall(UserInputService.GetStringForKeyCode, UserInputService, Value) and UserInputService:GetStringForKeyCode(Value) or "RightBracket"
                 InterfaceManager:ExportSettings()
             end
         })
