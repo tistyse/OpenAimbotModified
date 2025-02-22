@@ -43,7 +43,7 @@ local UISettings = {
     Theme = "VSC Dark High Contrast",
     Acrylic = false,
     Transparency = true,
-    MinimizeKey = "F14",
+    MinimizeKey = "RightBracket",
     ShowNotifications = false,
     ShowWarnings = true,
     RenderingMode = "RenderStepped",
@@ -113,7 +113,7 @@ local Configuration = {}
 
 Configuration.Aimbot = true
 Configuration.OnePressAimingMode = false
-Configuration.AimKey = "F13"
+Configuration.AimKey = "LeftBracket"
 Configuration.AimMode = "Camera"
 Configuration.SilentAimMethods = { "Mouse.Hit / Mouse.Target", "GetMouseLocation" }
 Configuration.SilentAimChance = 100
@@ -175,7 +175,7 @@ Configuration.PremiumCheck = ImportedConfiguration["PremiumCheck"] or false
 --? Visuals
 
 Configuration.FoV = true
-Configuration.FoVKey = "Home"
+Configuration.FoVKey = "KeypadMultiply"
 Configuration.FoVThickness = 1
 Configuration.FoVOpacity = .2
 Configuration.FoVFilled = false
